@@ -14,18 +14,7 @@
     font-size: 16px;
   }
   
-  /* 
-  gradient-bg-color
-  
-  background: radial-gradient(
-      circle,
-      var(--primary-brand-color) 0%,
-      rgba(148, 187, 233, 0) 70%
-    ); 
-    
-  */
-  
-  /* header styling start */
+
   
   a {
     color: var(--primary-text-color);
@@ -71,7 +60,15 @@
     background-color: #212121;
   }
   
-  /* main section start */
+  /* -----------------------------main section start ---------------------------*/
+
+
+
+
+
+
+
+
   main {
     display: flex;
     justify-content: space-between;
@@ -137,7 +134,15 @@
     right: 0;
   }
   
-  /* hero section end */
+  /*--------------------------- hero section end--------------------------------- */
+
+
+
+
+
+
+
+
   
   /* trusted section start */
   
@@ -158,8 +163,16 @@
   .truested-imges-container img {
     width: 10rem;
   }
+
+
+
+
+
+
+
+
   
-  /* courses section start */
+  /* ----------------------------------courses section start ------------------------------*/
   .courses-section {
     padding: 12vh 0;
   }
@@ -212,8 +225,19 @@
     padding: 0.5rem 1rem;
     border-radius: 0.2rem;
   }
-  /* courses section end */
-  /* join now section start */
+  /* -----------------------courses section end----------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+  /*--------------------- join now section start ------------------------*/
   .join-now {
     display: flex;
     align-items: center;
@@ -271,7 +295,7 @@
     border-radius: 0.5rem;
   }
   
-  /* join now section end */
+  /* ------------------join now section end----------------- */
 
 
 
@@ -301,7 +325,7 @@
   .header-logo {
     display: flex;
     align-items: center;
-    gap: 10px; /* space between image and text */
+    gap: 10px; 
     text-decoration: none;
   }
   
@@ -314,7 +338,7 @@
   .header-logo span {
     font-size: 20px;
     font-weight: bold;
-    color: #000; /* you can change this */
+    color: #000; 
   }
   
   
