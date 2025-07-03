@@ -287,6 +287,9 @@
   .join-now-left {
     background-color: #ecedef;
   }
+  .join-now-left img{
+    border-radius: 4rem;
+  }
   
   .join-now-a {
     background-color: var(--primary-brand-color);
@@ -306,7 +309,7 @@
   /*------------------------------- footer section--------------- */
 
   .footer {
-    background-color: #f7f7f7;
+    background-color:white ;
     padding: 40px 100px;
     font-family: Arial, sans-serif;
     color: #333;
