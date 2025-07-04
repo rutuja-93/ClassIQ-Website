@@ -427,3 +427,111 @@
     height: 16px;
   }
   
+
+
+
+
+
+
+
+
+
+  /* ========== Responsive Design ========== */
+
+/* Tablets and below */
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .main-right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .courses-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .join-now {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .join-now-left img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .truested-imges-container {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  :root {
+    --common-padding: 0 5vw;
+  }
+
+  .main-heading {
+    font-size: 2.2rem;
+  }
+
+  .header-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .header-right {
+    gap: 1rem;
+  }
+
+  .courses-wrapper {
+    padding: 2rem 0;
+  }
+
+  .course-card {
+    min-width: 80%;
+  }
+
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .subscribe-box {
+    flex-direction: column;
+  }
+
+  .subscribe-box input,
+  .subscribe-box button {
+    width: 100%;
+  }
+
+  .social-icons i {
+    padding: 10px;
+  }
+}
